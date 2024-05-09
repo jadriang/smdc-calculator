@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Light theme */
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --primary-color: #1d4ed8; /* blue */
+}
+
+[data-theme="dark"] {
+    /* Dark theme */
+    --bg-color: #333333;
+    --text-color: #ffffff;
+    --primary-color: #6366f1; /* lighter blue */
+}
